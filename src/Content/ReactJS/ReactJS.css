@@ -1,0 +1,38 @@
+
+.blog-main-heading{
+    display: grid;
+    /* grid-template-columns: 1fr 3fr; */
+}
+
+
+.blog-main-heading h1{
+    font-size: 20px;
+}
+
+.blog-main-heading   .blog-title h1{
+    color: black;
+}
+
+.heading-1{
+    color: blue;
+}
+
+.heading-2{
+    color: green;
+}
+
+.heading-3{
+    color: rgb(255, 0, 179);
+}
+
+.blog-main-heading .blog-image{
+    width: 80%;
+}
+
+.blog-main-heading .blog-image-big{
+    width: 40%;
+}
+
+.blog-main-heading .blog-image-small{
+    width: 80%;
+}
