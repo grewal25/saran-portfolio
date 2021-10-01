@@ -13,7 +13,7 @@ export default function Main(){
             Past 4 years I have been playing with many web technologies. From 
             Front-end framework ReactJS, Angular to Backend Django and Flask. I have a Masters 
             degree in Electrical Engineering from University of British Columbia. Currently I am 
-            employed as Software Analyst in Morneau Shepell and on the side am involved in number of 
+            working as Front-End Developer in Bank of Montreal and on the side am involved in number of 
             projects building websites for small and medium sized businesses. You can see my projects 
              <span > <a href="/">here</a></span>             
             </p> 
