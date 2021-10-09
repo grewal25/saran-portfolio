@@ -1,0 +1,49 @@
+.sidebar-title{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:start;
+    flex-grow: 0;
+   flex-shrink: 0;
+   flex-basis: 30%;
+}
+.react-blog{
+  
+}
+
+.django-blog{
+   
+}
+
+.react-blog button{
+    background: transparent;
+    color: black;
+    border: none;
+    width: 100%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+}
+.django-blog button{
+    background: transparent;
+    cursor:pointer;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.react-blog button:hover{
+    background-color: rgb(164, 201, 231);
+}
+
+.django-blog button:hover{
+    background-color: rgb(164, 201, 231);
+}
