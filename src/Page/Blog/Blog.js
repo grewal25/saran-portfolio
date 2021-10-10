@@ -11,7 +11,8 @@ export default function Blog() {
   return (
     <div>
     <div className="top-level">
-      <Sidebar />
+      <div className="side-bar"><Sidebar /></div>
+      
       <div className="main">
        
       <h1>Blogs/Tutorials</h1>

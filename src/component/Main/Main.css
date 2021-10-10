@@ -1,4 +1,10 @@
-
+.top-main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+    
+ 
+}
 .main{
     width: 50%;
     text-align: left;
@@ -10,12 +16,29 @@
     align-items: center;
 
 }
-
-@media screen and (max-width: 960px){
-    .main{
-        width: 90%;
-        text-align: left;
-        margin: 0 auto ;
-        font-size: 15px;
-    }
+.top-info{
+  flex-grow: 1;
+  
 }
+
+.main-bottom{
+   flex-grow: 5;
+  
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .top-main {
+        display: flex;
+        flex-direction: column;
+      background-color: rgb(253, 247, 247);
+    }
+  }
+
+
+  @media only screen and (min-width: 1440px) {
+    .top-main {
+        
+    }
+  }
