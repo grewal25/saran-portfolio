@@ -18,15 +18,6 @@ export default function Blog(clicked) {
 
   )
 
-
-  // if (!clicked) {
-  //   return <Django />;
-  // }
-  // return <ReactJS />;
-
-
-
-
 }
 
 

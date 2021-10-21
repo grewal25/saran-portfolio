@@ -9,6 +9,7 @@ import Skills from './Page/Skills/Skills';
 
 
 import Navbar from './component/Navbar/Navbar';
+import JavaSciptBlog from './Page/JavaScript/JavaScriptBlog';
 
 
 
@@ -24,6 +25,10 @@ function App() {
           </Route>
 
           <Route  path="/blog" component={Blog}>
+          
+          </Route>
+
+          <Route  path="/javascript" component={JavaSciptBlog}>
           
           </Route>
 
