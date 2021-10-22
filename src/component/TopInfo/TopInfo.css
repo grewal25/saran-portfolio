@@ -1,12 +1,13 @@
 
 
 .topInfo{
-    display: flex;
+    
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 0px;
     margin-left: 20px;
+    
 }
 
 .topInfo .name{
@@ -30,7 +31,12 @@
 .topInfo img{
     width:20%;
     border-radius: 50%;
+    
 
+}
+
+.top-img{
+   
 }
 
 @media screen and (max-width: 960px){
@@ -63,36 +69,4 @@
 
 }
 
-
-
-
-
-
-
-/* @media screen and (max-width: 560px){
-
-    .topInfo{
-            display: flex;
-            flex-direction: column;  
-           
-    }
-
-    .topInfo .name{
-        font-size: 18px;
-    }
-
-   .topInfo .name h5{
-    font-size: 20px;
-   }
-
-   .topInfo .name h4{
-    font-size: 18px;
-}
-
-    .topInfo img{
-        width:40%;
-        border-radius: 50%;
-    
-    }
-
-} */
+ 
