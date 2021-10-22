@@ -1,21 +1,49 @@
 
+import React from 'react'
+import ReactDom from 'react-dom'
+import ReactMarkdown from 'react-markdown'
+import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter'
+import {dark} from 'react-syntax-highlighter/dist/esm/styles/prism'
 
-export default function JavaSciptBlog(){
-    const ex1 = `function example(){
-        return hello ;
-    }`
-    return (
-        <div className="main">
-           <h3>JS</h3>
-           <p>The arguments object is a local variable available within all non-arrow functions. You can refer 
-               to a function's arguments inside that function by using its arguments object. It has entries for
-                each argument the function was called with, with the first entry's index at 0.</p>
 
-            <p>Let's see how to create a function in JS</p>
-            <code>
-                {ex1}
-                
-            </code>
-        </div>
-    )
+export default function JavaSciptBlog() {
+  const markdown = `Here is some JavaScript code:
+
+~~~js
+import React from 'react'
+import ReactDOM from 'react-dom'
+import ReactMarkdown from 'react-markdown'
+import rehypeHighlight from 'rehype-highlight'
+
+ReactDOM.render(
+  <ReactMarkdown rehypePlugins={[rehypeHighlight]}>{'# Your markdown here'}</ReactMarkdown>,
+  document.querySelector('#content')
+)
+~~~
+`
+  return (
+    <div className="">
+      <ReactMarkdown
+    children={markdown}
+    components={{
+      code({node, inline, className, children, ...props}) {
+        const match = /language-(\w+)/.exec(className || '')
+        return !inline && match ? (
+          <SyntaxHighlighter
+            children={String(children).replace(/\n$/, '')}
+        
+            language={match[1]}
+            PreTag="div"
+            {...props}
+          />
+        ) : (
+          <code className={className} {...props}>
+            {children}
+          </code>
+        )
+      }
+    }}
+  />
+    </div>
+  );
 }
