@@ -1,8 +1,12 @@
-body {
-  /* margin: 0;
-  font-family: 'Roboto Mono', monospace; */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
 
   font-family: sans-serif;
   /* letter-spacing: 1.25px; */
-}
+
+
 
