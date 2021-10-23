@@ -1,5 +1,5 @@
 import React, { Component, useEffect, useState } from "react";
-
+import './JavaScriptBlog.css'
 import ReactMarkdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 
@@ -16,8 +16,10 @@ export default function JavaSciptBlog() {
       .catch((err) => console.log(err));
   });
   return (
-    <div className="main">
-      <ReactMarkdown
+      <>
+    <div className="top-main">
+        <div className="markdown-js" >
+        <ReactMarkdown
         children={post}
         components={{
           code({ node, inline, className, children, ...props }) {
@@ -31,12 +33,15 @@ export default function JavaSciptBlog() {
               />
             ) : (
               <code className={className} {...props}>
-                {children}
+                  <div className="code-main">{children}</div>
+                
               </code>
             );
           },
         }}
       />
+      </div>
     </div>
+    </>
   );
 }
