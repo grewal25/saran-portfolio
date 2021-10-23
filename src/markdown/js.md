@@ -14,7 +14,7 @@ const arr1 = [1,2,3]
 ```
 now you want to add 5 at the end. We can use the push() method but that will alter the arr1 array. What we can do here is create a second array, arr2 and store all the elements in it and add 5 at the end. We can do that using the spread operator in JavaScript.
 
-![alt text](https://miro.medium.com/max/425/1*sDDAygIDTHIGJvNpw5PAqw.jpeg)
+![alt text]()
 
 ### Add Contact App 
 This part will show how to use hooks to use forms in React. How to use the spread operator to properly display the values a user provides in the input form.
@@ -45,7 +45,7 @@ so first we added our form with one input field of the first name. We will do th
 
 **NOTE** :  Following the convention, we used an array of inputValue and setInputValue. Always remember that inputValue is an object ( or could be a Boolean, number, or string ) and setInputValue is always a function that will alter the inputValue.
 
-The ``` handleChange``` function will handle the change in the input value. It will keep an eye on whatever you type in the box. We can get the value typed in the input box with the help of ```handleChange```function. We can grab the name and the value from the ```  event.target```
+The *handleChange* function will handle the change in the input value. It will keep an eye on whatever you type in the box. We can get the value typed in the input box with the help of *handleChange* function. We can grab the name and the value from the *event.target*
 
 
 
