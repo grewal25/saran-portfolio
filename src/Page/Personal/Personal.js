@@ -1,5 +1,5 @@
 import React, { Component, useEffect, useState } from "react";
-// import './JavaScriptBlog.css'
+import './Personal.css'
 import ReactMarkdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 
@@ -17,7 +17,7 @@ export default function Personal() {
   });
   return (
       <>
-    <div className="top-main">
+    <div className="top-main-ps">
         <div className="markdown-js" >
         <ReactMarkdown
         children={post}
