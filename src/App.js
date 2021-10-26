@@ -10,6 +10,7 @@ import Skills from './Page/Skills/Skills';
 
 import Navbar from './component/Navbar/Navbar';
 import JavaSciptBlog from './Page/JavaScript/JavaScriptBlog';
+import Personal from './Page/Personal/Personal';
 
 
 
@@ -33,6 +34,10 @@ function App() {
           </Route>
 
           <Route  path="/skills" component={Skills}>
+           
+          </Route>
+
+          <Route  path="/personal" component={Personal}>
            
           </Route>
         
