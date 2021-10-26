@@ -5,12 +5,12 @@ import Blog from './Page/Blog/Blog';
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from './Page/Home/Home';
-import Skills from './Page/Skills/Skills';
 
 
 import Navbar from './component/Navbar/Navbar';
 import JavaSciptBlog from './Page/JavaScript/JavaScriptBlog';
 import Personal from './Page/Personal/Personal';
+import About from './Page/About/About';
 
 
 
@@ -30,17 +30,15 @@ function App() {
           </Route>
 
           <Route  path="/javascript" component={JavaSciptBlog}>
-          
-          </Route>
-
-          <Route  path="/skills" component={Skills}>
-           
-          </Route>
+            </Route>
 
           <Route  path="/personal" component={Personal}>
            
           </Route>
         
+          <Route  path="/about" component={About}>
+           
+          </Route>
         </Switch>
     </BrowserRouter>
     

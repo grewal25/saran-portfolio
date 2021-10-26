@@ -1,5 +1,4 @@
 
-import Main from '../../component/Main/Main';
 
 
 function Home() {
@@ -7,7 +6,7 @@ function Home() {
 
     <div className="App">
      
-     <Main />
+     
     </div>
   
 
