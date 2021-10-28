@@ -3,9 +3,9 @@ import "./Blog.css";
 
 export default function Blog() {
   return(
-  <>
-  <h1></h1>
-  </>
+  <div className="p-6">
+  <h1>Hello</h1>
+  </div>
   )
   
 
