@@ -1,9 +1,8 @@
-.top-main {
+/* .top-main {
   display: grid;
   grid-template-columns: 1fr 3fr;
   max-width: 1000px;
   margin: 80px auto;
-  /* background-color: #f7fcfb; */
   color: black;
   padding: 30px;
 }
@@ -72,7 +71,7 @@
   }
 
   .lower-mid .lm-1 > button {
-    background-color: #a74caf; /* Green */
+    background-color: #a74caf; 
     border: none;
     color: white;
     padding: 5px 10px;
@@ -85,7 +84,7 @@
   }
 
   .lower-mid .lm-2 > button {
-    background-color: #a74caf; /* Green */
+    background-color: #a74caf; 
     border: none;
     color: white;
     padding: 5px 10px;
@@ -99,4 +98,4 @@
 }
 
 @media only screen and (min-width: 1440px) {
-}
+} */

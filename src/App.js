@@ -11,6 +11,7 @@ import Navbar from './component/Navbar/Navbar';
 import JavaSciptBlog from './Page/JavaScript/JavaScriptBlog';
 import Personal from './Page/Personal/Personal';
 import About from './Page/About/About';
+import JS_ch_01 from './Page/JS-ch-01/JS_ch_01';
 
 
 
@@ -29,8 +30,12 @@ function App() {
           
           </Route>
 
-          <Route  path="/javascript" component={JavaSciptBlog}>
+          <Route  exact path="/javascript" component={JavaSciptBlog}>
             </Route>
+
+          <Route  path="/javascript/types-variables-in-javascript" component={JS_ch_01}>
+           
+          </Route>
 
           <Route  path="/personal" component={Personal}>
            
