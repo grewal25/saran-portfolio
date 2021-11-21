@@ -3,6 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  /* font-family: "DIN Alternate", sans-serif;
+  font-size: 16px;
+  background-color: red; */
+}
+
 /* * {
   box-sizing: border-box;
   margin: 0px;

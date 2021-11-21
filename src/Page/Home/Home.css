@@ -1,9 +1,3 @@
-.home-container{
-    border: 1px solid red;
-    display: flex;
-
-}
-
-.home-container .home-items {
-    flex: auto;
+.blog-container{
+    background-color: rgb(240, 245, 248);
 }
