@@ -12,6 +12,7 @@ import JavaSciptBlog from './Page/JavaScript/JavaScriptBlog';
 import Personal from './Page/Personal/Personal';
 import About from './Page/About/About';
 import JS_ch_01 from './Page/JS-ch-01/JS_ch_01';
+import Productivity from './Page/Productivity/Productivity';
 
 
 
@@ -42,6 +43,10 @@ function App() {
           </Route>
         
           <Route  path="/about" component={About}>
+           
+          </Route>
+
+          <Route  path="/productivity" component={Productivity}>
            
           </Route>
         </Switch>

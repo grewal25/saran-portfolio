@@ -14,8 +14,10 @@ export default function Blog() {
       
       <div>
         <p className="font-bold text-2xl">Productivity</p>
-        <div className="border-b-2 border-gray-200 py-3">how to type faste: 8 actionable tips
-        to increase your typing speed</div>
+        <div className="border-b-2 border-gray-200 py-3">
+         <a href="./productivity">how to type faste: 8 actionable tips
+        to increase your typing speed</a>
+        </div>
         <div className="border-b-2 border-gray-200 py-3">how to stay focused</div>
         <div className="border-b-2 border-gray-200 py-3">time management skills</div>
       </div>
