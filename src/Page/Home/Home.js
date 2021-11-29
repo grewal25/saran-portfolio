@@ -55,56 +55,98 @@ function Home() {
 
       <div className="md:flex justify-evenly md:pt-12 gap-x-12 px-12 md:px-6 xl:px-64 2xl:px-0">
         <div className=" border-0 border-black">
-          <p className="text-3xl"><span className="border-b-4 border-blue-500">Explore</span></p>
+          <p className="text-3xl"><span className="border-b-4 border-blue-500">Writing</span></p>
           <div className="">
-            <div className="mt-4 pb-4 border-2 border-light-blue-100 border-opacity-100 rounded-md md:bg-gray-100">
-            <p className="py-4 font-bold"> Book summaries and Notes</p>
+            <div className="mt-4 py-4 border-2 border-light-blue-100 border-opacity-100 rounded-md md:bg-gray-100">
+            <p className="font-bold text-center md:text-left md:px-2">
+              <a href=""> Book summaries and Notes</a></p>
             <div>
-                Notes, highlights and reviews of my favourite fiction and
-                non-fiction books.
-              </div>
+              <li className="text-center md:text-left list-disc list-inside underline text-red-600 p-2">
+              <a href=""> Steve Jobs</a></li>
+              <li className="text-center md:text-left list-disc list-inside underline text-red-600 p-2">
+              <a href=""> Mind Hacking</a></li>
+              <li className="text-center md:text-left list-disc list-inside underline text-red-600 p-2">
+              <a href=""> Hyperfocus</a></li>
+              
+                
             </div>
-            <div className="mt-4 pb-4 border-2 border-light-blue-100 border-opacity-100 rounded-md md:bg-gray-100">
-            <p className="py-4 font-bold"> Book summaries and Notes</p>
-            <div>
-                Notes, highlights and reviews of my favourite fiction and
-                non-fiction books.
-              </div>
             </div>
-            <div className="mt-4 pb-4 border-2 border-light-blue-100 border-opacity-100 rounded-md md:bg-gray-100">
-            <p className="py-4 font-bold"> Book summaries and Notes</p>
+            <div className="mt-4 py-4 border-2 border-light-blue-100 border-opacity-100 rounded-md md:bg-gray-100">
+            <p className="font-bold text-center md:text-left md:px-2">
+              <a href=""> Essays</a></p>
             <div>
-                Notes, highlights and reviews of my favourite fiction and
-                non-fiction books.
-              </div>
+            <li className="text-center md:text-left list-disc list-inside underline text-red-600 p-2">
+              <a href="">How to swim in the flood of Self-Help advice</a></li>
+              <li className="text-center md:text-left list-disc list-inside underline text-red-600 p-2">
+              <a href="">3 Habits of people with growth mindset</a></li>
+              <li className="text-center md:text-left list-disc list-inside underline text-red-600 p-2">
+              <a href=""> High Achievers: Greg McKeown, a case study</a></li>  
+            </div>
+            </div>
+            
+            <div className="mt-4 py-4 border-2 border-light-blue-100 border-opacity-100 rounded-md md:bg-gray-100">
+            <p className="font-bold text-center md:text-left md:px-2">
+              <a href=""> Case Study/Research</a></p>
+            <div>
+              
+              <li className="text-center md:text-left list-disc list-inside underline text-red-600 p-2">
+              <a href="">How to swim in the flood of Self-Help advice</a></li>
+              <li className="text-center md:text-left list-disc list-inside underline text-red-600 p-2">
+              <a href="">3 Habits of people with growth mindset</a></li>
+              <li className="text-center md:text-left list-disc list-inside underline text-red-600 p-2">
+              <a href=""> High Achievers: Greg McKeown, a case study</a></li>
+              
+                
+            </div>
             </div>
 
         
           </div>
         </div>
-        <div className=" border-0 border-black pt-6 md:pt-0">
-          <p className="text-3xl"><span className="border-b-4 border-blue-500">Explore</span></p>
+        <div className=" border-0 border-black">
+          <p className="text-3xl"><span className="border-b-4 border-blue-500">Tech</span></p>
           <div className="">
-            <div className="mt-4 pb-4 border-2 border-light-blue-100 border-opacity-100 rounded-md md:bg-gray-100">
-            <p className="py-4 font-bold"> Book summaries and Notes</p>
+            <div className="mt-4 py-4 border-2 border-light-blue-100 border-opacity-100 rounded-md md:bg-gray-100">
+            <p className="font-bold text-center md:text-left md:px-2">
+              <a href=""> Book summaries and Notes</a></p>
             <div>
-                Notes, highlights and reviews of my favourite fiction and
-                non-fiction books.
-              </div>
+              <li className="text-center md:text-left list-disc list-inside underline text-red-600 p-2">
+              <a href=""> Steve Jobs</a></li>
+              <li className="text-center md:text-left list-disc list-inside underline text-red-600 p-2">
+              <a href=""> Mind Hacking</a></li>
+              <li className="text-center md:text-left list-disc list-inside underline text-red-600 p-2">
+              <a href=""> Hyperfocus</a></li>
+              
+                
             </div>
-            <div className="mt-4 pb-4 border-2 border-light-blue-100 border-opacity-100 rounded-md md:bg-gray-100">
-            <p className="py-4 font-bold"> Book summaries and Notes</p>
-            <div>
-                Notes, highlights and reviews of my favourite fiction and
-                non-fiction books.
-              </div>
             </div>
-            <div className="mt-4 pb-4 border-2 border-light-blue-100 border-opacity-100 rounded-md md:bg-gray-100">
-            <p className="py-4 font-bold"> Book summaries and Notes</p>
+            <div className="mt-4 py-4 border-2 border-light-blue-100 border-opacity-100 rounded-md md:bg-gray-100">
+            <p className="font-bold text-center md:text-left md:px-2">
+              <a href=""> Essays</a></p>
             <div>
-                Notes, highlights and reviews of my favourite fiction and
-                non-fiction books.
-              </div>
+            <li className="text-center md:text-left list-disc list-inside underline text-red-600 p-2">
+              <a href="">How to swim in the flood of Self-Help advice</a></li>
+              <li className="text-center md:text-left list-disc list-inside underline text-red-600 p-2">
+              <a href="">3 Habits of people with growth mindset</a></li>
+              <li className="text-center md:text-left list-disc list-inside underline text-red-600 p-2">
+              <a href=""> High Achievers: Greg McKeown, a case study</a></li>  
+            </div>
+            </div>
+            
+            <div className="mt-4 py-4 border-2 border-light-blue-100 border-opacity-100 rounded-md md:bg-gray-100">
+            <p className="font-bold text-center md:text-left md:px-2">
+              <a href=""> Case Study/Research</a></p>
+            <div>
+              
+              <li className="text-center md:text-left list-disc list-inside underline text-red-600 p-2">
+              <a href="">How to swim in the flood of Self-Help advice</a></li>
+              <li className="text-center md:text-left list-disc list-inside underline text-red-600 p-2">
+              <a href="">3 Habits of people with growth mindset</a></li>
+              <li className="text-center md:text-left list-disc list-inside underline text-red-600 p-2">
+              <a href=""> High Achievers: Greg McKeown, a case study</a></li>
+              
+                
+            </div>
             </div>
 
         
