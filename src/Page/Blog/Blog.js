@@ -1,3 +1,4 @@
+import Footer from "../../component/Footer/Footer";
 import "./Blog.css";
 
 export default function Blog() {
@@ -5,12 +6,12 @@ export default function Blog() {
     <div >
       <div className="flex flex-col items-center pb-12">
         
-          <img src="/penguin.svg" />
-          <p className="font-bold text-4xl">Here is the list of all tech and non-tech blogs </p>
+          {/* <img src="/penguin.svg" /> */}
+          <p className="font-bold text-2xl text-center pt-8">Here is the list of all tech and non-tech blogs </p>
         
       </div>
 
-    <div className="flex justify-evenly px-24 gap-x-32">
+    <div className="flex-col md:flex justify-evenly px-4 md:px-24 md:gap-x-32">
       
       <div>
         <p className="font-bold text-2xl">Productivity</p>
@@ -30,7 +31,7 @@ export default function Blog() {
       </div>
     </div>
 
-    <div className="flex justify-evenly px-24 gap-x-32 pt-12">
+    <div className="flex-col md:flex justify-evenly px-24 gap-x-32 pt-12">
       <div>
         <p className="font-bold text-2xl">Productivity</p>
         <div className="border-b-2 border-gray-200 py-3">how to type faste: 8 actionable tips
@@ -38,7 +39,7 @@ export default function Blog() {
         <div className="border-b-2 border-gray-200 py-3">how to stay focused</div>
         <div className="border-b-2 border-gray-200 py-3">time management skills</div>
       </div>
-      <div>
+      <div className=" pt-4">
         <p className="font-bold text-2xl">History</p>
         <div className="border-b-2 border-gray-200 py-3">how to type faste: 8 actionable tips
         to increase your typing speed</div>
@@ -46,7 +47,7 @@ export default function Blog() {
         <div className="border-b-2 border-gray-200 py-3">time management skills</div>
       </div>
     </div>
-
+<Footer />
     </div>
   );
 }

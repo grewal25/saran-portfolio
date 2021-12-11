@@ -9,9 +9,8 @@ export default function Navbar(){
            
               <li>  <a href="./" >home</a></li>
               <li> <a href="./blog" >blogs</a></li>
-              <li> <a href="./javascript" >JS</a></li>
-              <li> <a href="./personal" >Personal</a></li>
-              <li> <a href="./about" >About-Me</a></li>
+              <li> <a href="./blog" >tech</a></li>
+              <li> <a href="./javascript" >archieve</a></li>
               
           </ul>
        </div>

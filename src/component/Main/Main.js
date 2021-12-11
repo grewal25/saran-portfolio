@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Footer/Footer";
 import TopInfo from "../TopInfo/TopInfo";
 import "./Main.css";
 
@@ -38,6 +39,7 @@ export default function Main() {
             <div className="lm-2"><button href="" >See List of All My Projects</button></div>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   );
