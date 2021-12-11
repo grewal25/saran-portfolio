@@ -6,7 +6,7 @@ import "./Home.css";
 
 
 function Home() {
-  let a = 'invisible'
+  let a = 'hidden'
   let b = 'visible'
   const [show, setShow] = useState(a)
   const [buttonshow, setButtonShow] = useState(b)
@@ -54,15 +54,15 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="border-2 border-black">
+            <div className="">
               <div className="">
-                <img src="/photo.jpeg" />
+                {/* <img src="/photo.jpeg" /> */}
               </div>
             </div>
           </div>
 
           <div className="md:flex justify-evenly pb-12 sm:pt-12 md:pt-24 md:px-6 lg:px-6 xl:px-64 xl:mx-0 md:gap-x-8 xl:gap-x-16 2xl:gap-x-32">
-            <div className="max-w-md md:bg-white m-6 md:m-0 pt-0 md:pt-0 border-4 border-light-blue-500 border-opacity-100 rounded-xl md:border-2 md:border-gray-100 md:rounded-xl text-center md:shadow-2xl mb-4">
+            <div className="md:bg-white m-6 md:m-0 pt-0 md:pt-0 border-4 border-light-blue-500 border-opacity-100 rounded-xl md:border-2 md:border-gray-100 md:rounded-xl text-center md:shadow-2xl mb-4">
               <div className="flex pt-8 md:pt-8 ">
                 <div>
                   <img src="/rocket.svg" style={{ height: 35, width: 45 }} />
@@ -101,7 +101,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="md:flex justify-evenly md:pt-12 gap-x-12 px-12 md:px-6 xl:px-64 2xl:px-96">
+      <div className="hidden md:visible md:flex justify-evenly md:pt-12 gap-x-12 px-12 md:px-6 xl:px-64 2xl:px-96">
         <div className=" border-0 border-black">
           <p className="text-3xl">
             <span className="border-b-4 border-blue-500">Writing</span>
@@ -217,6 +217,61 @@ function Home() {
             </div>
           </div>
         </div>
+      </div>
+
+    {/* card section for mobile only  */}
+
+
+      <div className="md:hidden">
+      <div className="md:flex justify-evenly pb-12 sm:pt-12 md:pt-24 md:px-6 lg:px-6 xl:px-64 xl:mx-0 md:gap-x-8 xl:gap-x-16 2xl:gap-x-32">
+            <div className="px-8 font-bold text-3xl"><h3>Writing</h3></div>
+            <div className="md:bg-white m-6 md:m-0 pt-0 md:pt-0 border-4 border-light-blue-500 border-opacity-100 rounded-xl md:border-2 md:border-gray-100 md:rounded-xl text-center md:shadow-2xl mb-4">
+              <div className="flex ">
+              <img src="/writing-banner.jpeg" style={{ height: 179, width: 369}} />
+                <div>
+                  
+                </div>
+                <p className=""></p>
+              </div>
+              <div className="py-8">
+              <a className="py-8 " href="">
+                Find essays on books, important quotes and history lessons.
+              </a>
+              </div>
+              
+            </div>
+            <div className="md:bg-white m-6 md:m-0 pt-0 md:pt-0 border-4 border-light-blue-500 border-opacity-100 rounded-xl md:border-2 md:border-gray-100 md:rounded-xl text-center md:shadow-2xl mb-4">
+              <div className="flex ">
+              <img src="/planner-banner.jpeg" style={{ height: 179, width: 369}} />
+                <div>
+                  
+                </div>
+                <p className=""></p>
+              </div>
+              <div className="py-8">
+              <a className="py-8 " href="">
+                Find tutorials on React, functional & class components & state management in Redux.
+              </a>
+              </div>
+              
+            </div>
+            <div className="md:bg-white m-6 md:m-0 pt-0 md:pt-0 border-4 border-light-blue-500 border-opacity-100 rounded-xl md:border-2 md:border-gray-100 md:rounded-xl text-center md:shadow-2xl mb-4">
+              <div className="flex ">
+              <img src="/writing-banner.jpeg" style={{ height: 179, width: 369}} />
+                <div>
+                  
+                </div>
+                <p className=""></p>
+              </div>
+              <div className="py-8">
+              <a className="py-8 " href="">
+                Find tutorials on React, functional & class components & state management in Redux.
+              </a>
+              </div>
+              
+            </div>
+          </div>
+
       </div>
 
       <Footer />
