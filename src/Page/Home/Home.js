@@ -1,280 +1,124 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import Footer from "../../component/Footer/Footer";
 import "./Home.css";
 
-
-
-
 function Home() {
-  let a = 'hidden'
-  let b = 'visible'
-  const [show, setShow] = useState(a)
-  const [buttonshow, setButtonShow] = useState(b)
-
-
   return (
+
     <div>
+      {/* banner section */}
+      <div className="flex lex-col items-center justify-center h-64 md:h-64 lg:h-80 md:max-w-4xl m-auto text-center">
+        <div>
+          <h1 className="text-2xl">
+            “The secret of happiness, you see, is not found in seeking more, but
+            in developing the capacity to enjoy less.”
+          </h1>
+          <div className=""><p className="pl-4 pt-3"><span className="bg-yellow-300 p-2">Socrates</span></p></div>
+          
+        </div>
+      </div>
+
+      {/* 2 hover section */}
       <div>
-        <div className=" md:bg-gray-100">
-          <div className="px-6 md:flex justify-evenly pt-12 md:px-6 xl:px-64">
-            <div className="border-0 border-black">
-              <div>
-                <div className="flex text-3xl sm:py-2 md:py-4">
-                  Hey there...
-                  {/* <img src="/penguinwave.svg" style={{ height: 40, width: 45 }}/> */}
-                </div>
-                <div className="pt-4 md:max-w-xl">
-                  <p>
-                    I am Saranjeet,{" "}
-                    <span className="text-blue-400 italic font-bold">
-                      web developer{" "}
-                    </span>{" "}
-                    based in Canada.
-                  </p>
-                  <div className="pb-6 md:pb-0">
-                    <div className={buttonshow}>
-                      <button onClick={() => {setButtonShow(a); setShow(b)}}>
-                        Read More
-                      </button>
+          <div className="hidden lg:block bg-blue-0 max-w-7xl m-auto pt-8">
+            <div className="flex justify-evenly ">
+              <div className="w-96 h-72 border-2  rounded-3xl bg-black hover:bg-yellow-300 text-white hover:text-black">
+                <a href="" className="bg-indigo-500">
+                  <div className="flex flex-col items-center justify-center h-full">
+                    <div>
+                      <h1 className="text-6xl">Development</h1>
                     </div>
-
-                    <p className={show}>
-                      This website is basically my personal repository of my
-                      thoughts, lessons, and experience. I tend to write about
-                      productivity, research, and obviously front-end dev.
-                      However, I am not just limited to these topics only, I
-                      think there are a lot of things to explore in the world
-                      other than a day job or popular books/topics. So you may
-                      find topics I talk about that may not relate anywhere with
-                      each other but I think this is what makes it interesting,
-                      I tend not to bound myself in just one domain when the
-                      quest to human knowledge is limitless.
-                    </p>
                   </div>
-                </div>
+                </a>
+              </div>
+              <div className="w-96 h-72 border-2  rounded-3xl bg-black hover:bg-yellow-300 text-white hover:text-black">
+                <a href="" className="bg-indigo-500">
+                  <div className="flex flex-col items-center justify-center h-full">
+                    <div>
+                      <h1 className="text-6xl">Writing</h1>
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
-            <div className="">
-              <div className="">
-                {/* <img src="/photo.jpeg" /> */}
+
+            
+          </div>
+
+          <div className="hidden md:block lg:hidden max-w-7xl m-auto ">
+            <div className="flex flex-col items-center gap-y-12 px-6">
+            <div className="w-96 h-72 border-2  rounded-3xl bg-black hover:bg-yellow-300 text-white hover:text-black">
+                <a href="" className="bg-indigo-500">
+                  <div className="flex flex-col items-center justify-center h-full">
+                    <div>
+                      <h1 className="text-6xl">Development</h1>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="w-96 h-72 border-2  rounded-3xl bg-black hover:bg-yellow-300 text-white hover:text-black">
+                <a href="" className="bg-indigo-500">
+                  <div className="flex flex-col items-center justify-center h-full">
+                    <div>
+                      <h1 className="text-6xl">Technology</h1>
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
 
-          <div className="md:flex justify-evenly pb-12 sm:pt-12 md:pt-24 md:px-6 lg:px-6 xl:px-64 xl:mx-0 md:gap-x-8 xl:gap-x-16 2xl:gap-x-32">
-            <div className="md:bg-white m-6 md:m-0 pt-0 md:pt-0 border-4 border-light-blue-500 border-opacity-100 rounded-xl md:border-2 md:border-gray-100 md:rounded-xl text-center md:shadow-2xl mb-4">
-              <div className="flex pt-8 md:pt-8 ">
-                <div>
-                  <img src="/rocket.svg" style={{ height: 35, width: 45 }} />
-                </div>
-                <p className=""> React</p>
+          <div className="block md:hidden lg:hidden max-w-7xl m-auto ">
+            <div className="flex flex-col items-center gap-y-3 px-6">
+            <div className="w-72 h-48 border-2  rounded-3xl bg-black hover:bg-yellow-300 text-white hover:text-black">
+                <a href="" className="bg-indigo-500">
+                  <div className="flex flex-col items-center justify-center h-full">
+                    <div>
+                      <h1 className="text-4xl">Development</h1>
+                    </div>
+                  </div>
+                </a>
               </div>
-              <p className="py-8 ">
-                Find tutorials on React, functional & class components & state management in Redux.
-              </p>
-            </div>
-            <div className="md:bg-white m-6 md:m-0 pt-0 md:pt-0 border-4 border-light-blue-500 border-opacity-100 rounded-xl md:border-2 md:border-gray-100 md:rounded-xl text-center md:shadow-2xl mb-4">
-              <div className="flex pt-8 md:pt-8 ">
-                <div>
-                  <img src="/bomb.svg" style={{ height: 35, width: 45 }} />
-                </div>
-                <div> JavaScript</div>
+              <div className="w-72 h-48 border-2 rounded-3xl bg-black hover:bg-yellow-300 text-white hover:text-black">
+                <a href="" className="bg-indigo-500">
+                  <div className="flex flex-col items-center justify-center h-full">
+                    <div>
+                      <h1 className="text-4xl">Writing</h1>
+                    </div>
+                  </div>
+                </a>
               </div>
-              <p className="py-8 ">
-                Find tutorials on topics like ES6, functional programming &
-                async JavaScript
-              </p>
-            </div>
-            <div className="md:bg-white m-6 md:m-0 pt-0 md:pt-0 border-4 border-light-blue-500 border-opacity-100 rounded-xl md:border-2 md:border-gray-100 md:rounded-xl text-center md:shadow-2xl mb-4">
-              <div className="flex pt-8 md:pt-8 ">
-                <div>
-                  <img src="/splash.svg" style={{ height: 35, width: 45 }} />
-                </div>
-                <div> CSS</div>
-              </div>
-              <p className="py-8 ">
-                Find tutorials on React, React Hooks and many more new
-                techniques
-              </p>
             </div>
           </div>
+      </div>
+
+      {/* Recent Articles... */}
+      <div>
+      <div className="h-64 md:h-64 lg:h-80 md:max-w-4xl m-auto text-center pt-8 md:pt-12 lg:pt-16 ">
+        <div>
+          <h1 className="text-3xl">
+            Recent Articles
+          </h1>
+          <div className="pt-12 flex justify-center gap-x-3">
+            <div className="underline text-2xl"><a href="./caching">How to boost productivity</a>
+              </div>
+            <div className="md:pl-4 md:text-xl text-sm hidden md:block">Dec 26, 2021</div>
+          </div>
+          <div className="pt-4 flex justify-center gap-x-3">
+          <div className="underline text-2xl"><a href="./not-to-fear-old-age">Why you shouldn't fear the 30s </a>
+              </div>
+            <div className="md:pl-4 md:text-xl text-sm hidden md:block">Dec 26, 2021</div>
+          </div>
+          
         </div>
       </div>
 
-      <div className="hidden md:visible md:flex justify-evenly md:pt-12 gap-x-12 px-12 md:px-6 xl:px-64 2xl:px-96">
-        <div className=" border-0 border-black">
-          <p className="text-3xl">
-            <span className="border-b-4 border-blue-500">Writing</span>
-          </p>
-          <div className="">
-            <div className="mt-4 py-4 border-2 border-light-blue-100 border-opacity-100 rounded-md md:bg-gray-100">
-              <div>
-                <p className="font-bold text-left ">
-                  <a href=""> Book summaries and Notes</a>
-                </p>
-              </div>
-
-              <div>
-                <li className="text-left  underline p-2">
-                  <a href=""> Steve Jobs</a>
-                </li>
-                <li className="text-left  underline p-2">
-                  <a href=""> Mind Hacking</a>
-                </li>
-                <li className="text-left  underline p-2">
-                  <a href=""> Hyperfocus</a>
-                </li>
-              </div>
-            </div>
-            <div className="mt-4 py-4 border-2 border-light-blue-100 border-opacity-100 rounded-md md:bg-gray-100">
-              <p className="font-bold text-center md:text-left md:px-2">
-                <a href=""> Essays</a>
-              </p>
-              <div>
-                <li className="text-center md:text-left list-disc list-inside underline p-2">
-                  <a href="">How to swim in the flood of Self-Help advice</a>
-                </li>
-                <li className="text-center md:text-left list-disc list-inside underline p-2">
-                  <a href="">3 Habits of people with growth mindset</a>
-                </li>
-                <li className="text-center md:text-left list-disc list-inside underline p-2">
-                  <a href=""> High Achievers: Greg McKeown, a case study</a>
-                </li>
-              </div>
-            </div>
-
-            <div className="mt-4 py-4 border-2 border-light-blue-100 border-opacity-100 rounded-md md:bg-gray-100">
-              <p className="font-bold text-center md:text-left md:px-2">
-                <a href=""> Case Study/Research</a>
-              </p>
-              <div>
-                <li className="text-center md:text-left list-disc list-inside underline p-2">
-                  <a href="">How to swim in the flood of Self-Help advice</a>
-                </li>
-                <li className="text-center md:text-left list-disc list-inside underline p-2">
-                  <a href="">3 Habits of people with growth mindset</a>
-                </li>
-                <li className="text-center md:text-left list-disc list-inside underline p-2">
-                  <a href=""> High Achievers: Greg McKeown, a case study</a>
-                </li>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className=" border-0 border-black">
-          <p className="text-3xl">
-            <span className="border-b-4 border-blue-500">Tech</span>
-          </p>
-          <div className="">
-            <div className="mt-4 py-4 border-2 border-light-blue-100 border-opacity-100 rounded-md md:bg-gray-100">
-              <p className="font-bold text-center md:text-left md:px-2">
-                <a href=""> Book summaries and Notes</a>
-              </p>
-              <div>
-                <li className="text-center md:text-left list-disc list-inside underline p-2">
-                  <a href=""> Steve Jobs</a>
-                </li>
-                <li className="text-center md:text-left list-disc list-inside underline p-2">
-                  <a href=""> Mind Hacking</a>
-                </li>
-                <li className="text-center md:text-left list-disc list-inside underline p-2">
-                  <a href=""> Hyperfocus</a>
-                </li>
-              </div>
-            </div>
-            <div className="mt-4 py-4 border-2 border-light-blue-100 border-opacity-100 rounded-md md:bg-gray-100">
-              <p className="font-bold text-center md:text-left md:px-2">
-                <a href=""> Essays</a>
-              </p>
-              <div>
-                <li className="text-center md:text-left list-disc list-inside underline p-2">
-                  <a href="">How to swim in the flood of Self-Help advice</a>
-                </li>
-                <li className="text-center md:text-left list-disc list-inside underline p-2">
-                  <a href="">3 Habits of people with growth mindset</a>
-                </li>
-                <li className="text-center md:text-left list-disc list-inside underline p-2">
-                  <a href=""> High Achievers: Greg McKeown, a case study</a>
-                </li>
-              </div>
-            </div>
-
-            <div className="mt-4 py-4 border-2 border-light-blue-100 border-opacity-100 rounded-md md:bg-gray-100">
-              <p className="font-bold text-center md:text-left md:px-2">
-                <a href=""> Case Study/Research</a>
-              </p>
-              <div>
-                <li className="text-center md:text-left list-disc list-inside underline p-2">
-                  <a href="">How to swim in the flood of Self-Help advice</a>
-                </li>
-                <li className="text-center md:text-left list-disc list-inside underline p-2">
-                  <a href="">3 Habits of people with growth mindset</a>
-                </li>
-                <li className="text-center md:text-left list-disc list-inside underline p-2">
-                  <a href=""> High Achievers: Greg McKeown, a case study</a>
-                </li>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    {/* card section for mobile only  */}
 
 
-      <div className="md:hidden">
-      <div className="md:flex justify-evenly pb-12 sm:pt-12 md:pt-24 md:px-6 lg:px-6 xl:px-64 xl:mx-0 md:gap-x-8 xl:gap-x-16 2xl:gap-x-32">
-            <div className="px-8 font-bold text-3xl"><h3>Writing</h3></div>
-            <div className="md:bg-white m-6 md:m-0 pt-0 md:pt-0 border-4 border-light-blue-500 border-opacity-100 rounded-xl md:border-2 md:border-gray-100 md:rounded-xl text-center md:shadow-2xl mb-4">
-              <div className="flex ">
-              <img src="/writing-banner.jpeg" style={{ height: 179, width: 369}} />
-                <div>
-                  
-                </div>
-                <p className=""></p>
-              </div>
-              <div className="py-8">
-              <a className="py-8 " href="">
-                Find essays on books, important quotes and history lessons.
-              </a>
-              </div>
-              
-            </div>
-            <div className="md:bg-white m-6 md:m-0 pt-0 md:pt-0 border-4 border-light-blue-500 border-opacity-100 rounded-xl md:border-2 md:border-gray-100 md:rounded-xl text-center md:shadow-2xl mb-4">
-              <div className="flex ">
-              <img src="/planner-banner.jpeg" style={{ height: 179, width: 369}} />
-                <div>
-                  
-                </div>
-                <p className=""></p>
-              </div>
-              <div className="py-8">
-              <a className="py-8 " href="">
-                Find tutorials on React, functional & class components & state management in Redux.
-              </a>
-              </div>
-              
-            </div>
-            <div className="md:bg-white m-6 md:m-0 pt-0 md:pt-0 border-4 border-light-blue-500 border-opacity-100 rounded-xl md:border-2 md:border-gray-100 md:rounded-xl text-center md:shadow-2xl mb-4">
-              <div className="flex ">
-              <img src="/writing-banner.jpeg" style={{ height: 179, width: 369}} />
-                <div>
-                  
-                </div>
-                <p className=""></p>
-              </div>
-              <div className="py-8">
-              <a className="py-8 " href="">
-                Find tutorials on React, functional & class components & state management in Redux.
-              </a>
-              </div>
-              
-            </div>
-          </div>
+
+
 
       </div>
-
-      <Footer />
     </div>
   );
 }
