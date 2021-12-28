@@ -13,6 +13,8 @@ import Personal from './Page/Personal/Personal';
 import About from './Page/About/About';
 import JS_ch_01 from './Page/JS-ch-01/JS_ch_01';
 import Productivity from './Page/Productivity/Productivity';
+import Caching from './Page/caching/Caching';
+import VictorFrankl from './Page/VictorFrankl/VictorFrankl';
 
 
 
@@ -47,6 +49,13 @@ function App() {
           </Route>
 
           <Route  path="/productivity" component={Productivity}>
+           
+          </Route>
+
+          <Route  path="/caching" component={Caching}>
+           
+          </Route>
+          <Route  path="/not-to-fear-old-age" component={VictorFrankl}>
            
           </Route>
         </Switch>
