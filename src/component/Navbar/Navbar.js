@@ -10,7 +10,7 @@ export default function Navbar(){
               <li>  <a href="./" >home</a></li>
               <li> <a href="./blog" >blogs</a></li>
               <li> <a href="./blog" >tech</a></li>
-              <li> <a href="./javascript" >archieve</a></li>
+              <li> <a href="./archive" >archive</a></li>
               
           </ul>
        </div>

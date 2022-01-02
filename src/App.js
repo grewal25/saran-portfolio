@@ -15,6 +15,7 @@ import JS_ch_01 from './Page/JS-ch-01/JS_ch_01';
 import Productivity from './Page/Productivity/Productivity';
 import Caching from './Page/caching/Caching';
 import VictorFrankl from './Page/VictorFrankl/VictorFrankl';
+import Archive from './Page/Archive/Archive';
 
 
 
@@ -56,6 +57,9 @@ function App() {
            
           </Route>
           <Route  path="/not-to-fear-old-age" component={VictorFrankl}>
+           
+          </Route>
+          <Route  path="/archive" component={Archive}>
            
           </Route>
         </Switch>
