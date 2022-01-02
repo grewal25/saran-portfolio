@@ -1,114 +1,96 @@
-
-
-const Archive =()=>{
-    return(
-        <>
+const Archive = () => {
+  return (
+    <>
+      <div>
         <div>
-            <div >
-            <div>
-          
-        <div className="flex justify-center gap-y-12 lg:gap-x-12 pt-24 flex-col lg:flex-row items-center">
-          <article className="">
-              <div className="max-w-xs md:max-w-md lg:max-w-xs rounded overflow-hidden shadow-lg hover:shadow-3xl">
-                <img src="img-1.jpeg" className="w-full h-2/3 hover:shadow-3xl"  />
-                <div className="px-6 py-4">
+          <div>
+            <div className="flex justify-center gap-y-12 lg:gap-x-12 pt-24 flex-col lg:flex-row items-center">
+              <article className="">
+                <div className="max-w-xs md:max-w-md lg:max-w-xs rounded-2xl overflow-hidden shadow-lg hover:shadow-3xl">
+                  <img
+                    src="prod-1.jpeg"
+                    className="w-full h-2/3 hover:shadow-3xl"
+                  />
+                  <div className="px-6 py-4">
                     <div className="font-bold text-2xl mb-2">
-                        Example Photo
+                      Method to super-boost productivity
                     </div>
                     <ul>
-                    <li>
-                        <strong>Views:</strong> 400
-                    </li>
-                    <li>
-                        <strong>Downloads:</strong> 400
-                    </li>
-                    <li>
-                        <strong>Likes:</strong> 400
-                    </li>
-                </ul>
-                
-                
-                <div>
-                  <span className="inline-block bg-gray-200 rounded-full px-3 text-sm mr-2">#tag1</span>
-                  <span className="inline-block bg-gray-200 rounded-full px-3 text-sm mr-2">#tag1</span>
-                  <span className="inline-block bg-gray-200 rounded-full px-3 text-sm mr-2">#tag1</span>
+                      <li>
+                        We all have wardrobes full of clothes and still, we
+                        spend most of our time deciding what to wear. One of the
+                        ways to solve this is to group all the
+                      </li>
+                    </ul>
 
-              </div>
-              </div>
-              </div>
-              
-          </article>
+                    <div>
+                      <span className="inline-block bg-gray-200 rounded-full px-3 text-sm mr-2 mt-2">
+                        #productivity
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </article>
 
-          <article className="">
-              <div className="max-w-xs md:max-w-md lg:max-w-xs rounded overflow-hidden shadow-lg hover:shadow-3xl">
-                <img src="img-1.jpeg" className="w-full h-2/3 hover:shadow-3xl"  />
-                <div className="px-6 py-4">
+              <article className="">
+                <div className="max-w-xs md:max-w-md lg:max-w-xs rounded-2xl overflow-hidden shadow-lg hover:shadow-3xl">
+                  <img
+                    src="fear.jpeg"
+                    className="w-full h-2/3 hover:shadow-3xl"
+                  />
+                  <div className="px-6 py-4">
                     <div className="font-bold text-2xl mb-2">
-                        Example Photo
+                    Why you shouldn't fear the 30s
                     </div>
                     <ul>
-                    <li>
-                        <strong>Views:</strong> 400
-                    </li>
-                    <li>
-                        <strong>Downloads:</strong> 400
-                    </li>
-                    <li>
-                        <strong>Likes:</strong> 400
-                    </li>
-                </ul>
-                
-                
-                <div>
-                  <span className="inline-block bg-gray-200 rounded-full px-3 text-sm mr-2">#tag1</span>
-                  <span className="inline-block bg-gray-200 rounded-full px-3 text-sm mr-2">#tag1</span>
-                  <span className="inline-block bg-gray-200 rounded-full px-3 text-sm mr-2">#tag1</span>
+                      <li>
+                        We all have wardrobes full of clothes and still, we
+                        spend most of our time deciding what to wear. One of the
+                        ways to solve this is to group all the
+                      </li>
+                    </ul>
 
-              </div>
-              </div>
-              </div>
-              
-          </article>
+                    <div>
+                      <span className="inline-block bg-gray-200 rounded-full px-3 text-sm mr-2 mt-2">
+                        #philosophy
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </article>
 
-          <article className="">
-              <div className="max-w-xs md:max-w-md lg:max-w-xs rounded overflow-hidden shadow-lg hover:shadow-3xl">
-                <img src="img-1.jpeg" className="w-full h-2/3 hover:shadow-3xl"  />
-                <div className="px-6 py-4">
-                    <div className="font-bold text-2xl mb-2">
-                        Example Photo
+              <article className="">
+                <div className="max-w-xs md:max-w-md lg:max-w-xs rounded-2xl overflow-hidden shadow-lg hover:shadow-3xl">
+                  <img
+                    src="prod-1.jpeg"
+                    className="w-full h-2/3 hover:shadow-3xl"
+                  />
+                  <div className="px-6 py-4">
+                    <div className="font-bold text-2xl mb-10">
+                    Science of Deep Focus
                     </div>
                     <ul>
-                    <li>
-                        <strong>Views:</strong> 400
-                    </li>
-                    <li>
-                        <strong>Downloads:</strong> 400
-                    </li>
-                    <li>
-                        <strong>Likes:</strong> 400
-                    </li>
-                </ul>
-                
-                
-                <div>
-                  <span className="inline-block bg-gray-200 rounded-full px-3 text-sm mr-2">#tag1</span>
-                  <span className="inline-block bg-gray-200 rounded-full px-3 text-sm mr-2">#tag1</span>
-                  <span className="inline-block bg-gray-200 rounded-full px-3 text-sm mr-2">#tag1</span>
+                      <li>
+                        We all have wardrobes full of clothes and still, we
+                        spend most of our time deciding what to wear. One of the
+                        ways to solve this is to group all the
+                      </li>
+                    </ul>
 
-              </div>
-              </div>
-              </div>
-              
-          </article>
-          </div>
-
-      </div>
-                
+                    <div>
+                      <span className="inline-block bg-gray-200 rounded-full px-3 text-sm mr-2 mt-2">
+                        #productivity
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </article>
             </div>
-            
+          </div>
         </div>
-        </>
-    )
-}
+      </div>
+    </>
+  );
+};
 
-export default Archive
+export default Archive;
