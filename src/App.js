@@ -16,6 +16,8 @@ import Productivity from './Page/Productivity/Productivity';
 import Caching from './Page/caching/Caching';
 import VictorFrankl from './Page/VictorFrankl/VictorFrankl';
 import Archive from './Page/Archive/Archive';
+import Stuck from './Page/Stuck/Stuck';
+import Footer from './component/Footer/Footer';
 
 
 
@@ -60,6 +62,12 @@ function App() {
            
           </Route>
           <Route  path="/archive" component={Archive}>
+           
+          </Route>
+          <Route  path="/how-to-start-when-you-are-stuck" component={Stuck}>
+           
+          </Route>
+          <Route  path="/footer" component={Footer}>
            
           </Route>
         </Switch>
