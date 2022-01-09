@@ -1,3 +1,5 @@
+import Footer from "../../component/Footer/Footer";
+
 const Archive = () => {
   return (
     <>
@@ -96,7 +98,7 @@ const Archive = () => {
                   />
                   <div className="px-6 py-4">
                     <div className="font-bold text-2xl mb-2">
-                      How to start when you are stuck
+                    <a href="./how-to-start-when-you-are-stuck">How to start when you are stuck</a>
                     </div>
                     <ul>
                       <li className="font-light">
@@ -254,6 +256,8 @@ const Archive = () => {
               </article>
             </div>          </div>
         </div>
+
+        <Footer />
       </div>
     </>
   );
