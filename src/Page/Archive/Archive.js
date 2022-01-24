@@ -5,7 +5,7 @@ const Archive = () => {
     <>
       <div>
         <div>
-          <div>
+          <div className="lg:px-4 xl:px-0">
             <div className="flex justify-center gap-y-12 lg:gap-x-12 pt-24 flex-col lg:flex-row items-center">
               <article className="">
                 <div className="max-w-xs md:max-w-md lg:max-w-xs rounded-2xl overflow-hidden shadow-lg hover:shadow-3xl">
@@ -15,7 +15,7 @@ const Archive = () => {
                   />
                   <div className="px-6 py-4">
                     <div className="font-bold text-2xl mb-2">
-                      Method to super-boost productivity
+                      <a href="./caching">Method to super-boost productivity</a>
                     </div>
                     <ul>
                       <li className="font-light">
@@ -42,13 +42,15 @@ const Archive = () => {
                   />
                   <div className="px-6 py-4">
                     <div className="font-bold text-2xl mb-2">
-                    Why you shouldn't fear the 30s
+                      <a href="./not-to-fear-old-age">
+                        Why you shouldn't fear the 30s{" "}
+                      </a>
                     </div>
                     <ul>
                       <li className="font-light">
-                        We all have wardrobes full of clothes and still, we
-                        spend most of our time deciding what to wear. One of the
-                        ways to solve this is to group all the
+                        If anyone asks you to pick an option from the two
+                        situations below, which one would you pick? You are
+                        young but poor You are old but rich?
                       </li>
                     </ul>
 
@@ -68,14 +70,15 @@ const Archive = () => {
                     className="w-full h-2/3 hover:shadow-3xl"
                   />
                   <div className="px-6 py-4">
-                    <div className="font-bold text-2xl mb-10">
-                    Science of Deep Focus
+                    <div className="font-bold text-2xl mb-7">
+                      <a href="./how-to-start-when-you-are-stuck">How to start when you are stuck
+                      </a>
                     </div>
                     <ul>
                       <li className="font-light">
-                        We all have wardrobes full of clothes and still, we
-                        spend most of our time deciding what to wear. One of the
-                        ways to solve this is to group all the
+                        Writer’s block is real, procrastination is real too. For
+                        most days, I think I do alright and don’t need to push
+                        myself
                       </li>
                     </ul>
 
@@ -98,7 +101,9 @@ const Archive = () => {
                   />
                   <div className="px-6 py-4">
                     <div className="font-bold text-2xl mb-2">
-                    <a href="./how-to-start-when-you-are-stuck">How to start when you are stuck</a>
+                      <a href="./how-to-start-when-you-are-stuck">
+                        Science of Deep Focus
+                      </a>
                     </div>
                     <ul>
                       <li className="font-light">
@@ -125,7 +130,7 @@ const Archive = () => {
                   />
                   <div className="px-6 py-4">
                     <div className="font-bold text-2xl mb-2">
-                    Why you shouldn't fear the 30s
+                      Why you shouldn't fear the 30s
                     </div>
                     <ul>
                       <li className="font-light">
@@ -152,7 +157,7 @@ const Archive = () => {
                   />
                   <div className="px-6 py-4">
                     <div className="font-bold text-2xl mb-10">
-                    Science of Deep Focus
+                      Science of Deep Focus
                     </div>
                     <ul>
                       <li className="font-light">
@@ -171,7 +176,6 @@ const Archive = () => {
                 </div>
               </article>
             </div>
-
 
             <div className="flex justify-center gap-y-12 lg:gap-x-12 pt-24 flex-col lg:flex-row items-center">
               <article className="">
@@ -209,7 +213,7 @@ const Archive = () => {
                   />
                   <div className="px-6 py-4">
                     <div className="font-bold text-2xl mb-2">
-                    Why you shouldn't fear the 30s
+                      Why you shouldn't fear the 30s
                     </div>
                     <ul>
                       <li className="font-light">
@@ -236,7 +240,7 @@ const Archive = () => {
                   />
                   <div className="px-6 py-4">
                     <div className="font-bold text-2xl mb-10">
-                    Science of Deep Focus
+                      Science of Deep Focus
                     </div>
                     <ul>
                       <li className="font-light">
@@ -254,7 +258,8 @@ const Archive = () => {
                   </div>
                 </div>
               </article>
-            </div>          </div>
+            </div>
+          </div>
         </div>
 
         <Footer />
