@@ -17,17 +17,17 @@ export default function JavaSciptBlog() {
   });
   return (
       <>
-    <div className="top-main">
-        <div className="markdown-js" >
+    <div className="max-w-4xl m-auto pt-12 px-8 md-px-10 lg-px-0">
+        <div className="prose max-w-4xl" >
         <ReactMarkdown
         children={post}
         components={{
           code({ node, inline, className, children, ...props }) {
             const match = /language-(\w+)/.exec(className || "");
             return !inline && match ? (
-              <SyntaxHighlighter
+              <SyntaxHighlighter 
                 children={String(children).replace(/\n$/, "")}
-                language={match[1]}
+                language="javascript"
                 PreTag="div"
                 {...props}
               />

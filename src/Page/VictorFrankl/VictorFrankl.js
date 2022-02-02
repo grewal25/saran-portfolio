@@ -1,5 +1,8 @@
+import Footer from "../../component/Footer/Footer";
+
 export default function VictorFrankl() {
   return (
+    <div>
     <div className="max-w-4xl m-auto pt-12">
       <div>
         <h1 className="text-5xl font-mono h-96 pt-36 text-center lg:text-left">
@@ -71,6 +74,8 @@ export default function VictorFrankl() {
           of life.
         </p>
       </div>
+    </div>
+    <Footer />
     </div>
   );
 }

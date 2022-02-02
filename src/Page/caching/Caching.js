@@ -1,5 +1,8 @@
+import Footer from "../../component/Footer/Footer";
+
 export default function Caching() {
   return (
+    <div>
     <div className="max-w-4xl m-auto pt-12">
       <div>
         <h1 className="text-5xl font-mono h-96 pt-36 text-center lg:text-left">
@@ -98,11 +101,14 @@ export default function Caching() {
       By applying the same principle, you can arrange your cache of different tasks by removing the Least Recently Used item from the list of tasks and focusing on things that you use actively.
       </p>
 
-      <p className="text-xl pt-8 font-sans antialiased pb-96">
+      <p className="text-xl pt-8 font-sans antialiased">
       So coming to our original question, how should we arrange our clothes. Well, you can still group the like things together but on top of that, you should create your own little cache of clothes you wear most often. You can have two separate collections of clothes, one group-like, and another cache, and remove/add items as per their frequency of use.
       </p>
 
       </div>
+      
+    </div>
+    <Footer />
     </div>
   );
 }

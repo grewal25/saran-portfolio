@@ -36,12 +36,12 @@ function App() {
           
           </Route>
 
-          <Route  exact path="/javascript" component={JavaSciptBlog}>
+          <Route  path="/javascript" component={JavaSciptBlog}>
             </Route>
 
-          <Route  path="/javascript/types-variables-in-javascript" component={JS_ch_01}>
+          {/* <Route  path="/javascript/types-variables-in-javascript" component={JS_ch_01}>
            
-          </Route>
+          </Route> */}
 
           <Route  path="/personal" component={Personal}>
            
