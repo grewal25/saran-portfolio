@@ -18,6 +18,7 @@ import VictorFrankl from './Page/VictorFrankl/VictorFrankl';
 import Archive from './Page/Archive/Archive';
 import Stuck from './Page/Stuck/Stuck';
 import Footer from './component/Footer/Footer';
+import Development from './Page/development/Development';
 
 
 
@@ -31,6 +32,10 @@ function App() {
           <Route exact path="/" component={Home}>
            
           </Route>
+
+          <Route exact path="/development" component={Development}>
+           
+           </Route>
 
           <Route  path="/blog" component={Blog}>
           
