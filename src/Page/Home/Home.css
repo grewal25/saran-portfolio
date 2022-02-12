@@ -1,4 +1,8 @@
-img{
-    height: 300px;
-    width: 300px;
-}
+/* .container{
+    background-image: url(./images/fear.jpeg);
+  } */
+
+  .container{
+    /* background-image: url('/images/fear.jpeg') */
+    /* background-color: #c60000; */
+  }

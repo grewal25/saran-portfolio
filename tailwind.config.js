@@ -2,16 +2,24 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    backgroundColor : theme => (
-      {
-        ...theme('colors'),
-      //   'primary': 'FF0000',
-      //  'secondary': '#ffed4a',
-      //  'danger': '#e3342f',
-      //  'main':'#CCDFEE',
-
+    extend:{
+      width:{
+        '128':'32rem',
+      },
+      backgroundImage: {
+        'pack-train': "url('img/banner-3.jpeg')",
       }
-    ),
+    },
+    // backgroundColor : theme => (
+    //   {
+    //     ...theme('colors'),
+    //   //   'primary': 'FF0000',
+    //   //  'secondary': '#ffed4a',
+    //   //  'danger': '#e3342f',
+    //   //  'main':'#CCDFEE',
+
+    //   }
+    // ),
     flex: {
       '3': '0 0 500px',
       '4': '0 0 700px',
@@ -27,11 +35,6 @@ module.exports = {
      '5xl': '0 55px 80px -20px rgba(0, 0, 0, 0.5)',
       inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
       none: 'none',
-    },
-    extend:{
-      width:{
-        '128':'32rem',
-      }
     }
     
   },

@@ -19,6 +19,8 @@ import Archive from './Page/Archive/Archive';
 import Stuck from './Page/Stuck/Stuck';
 import Footer from './component/Footer/Footer';
 import Development from './Page/development/Development';
+import MainPage from './Page/Home/MainPage';
+import Main from './component/Main/Main';
 
 
 
@@ -29,11 +31,15 @@ function App() {
      
      
   <Switch>
-          <Route exact path="/" component={Home}>
+          <Route exact path="/" component={MainPage}>
            
           </Route>
 
-          <Route exact path="/development" component={Development}>
+          <Route path="/development" component={Development}>
+           
+           </Route>
+
+           <Route path="/main" component={MainPage}>
            
            </Route>
 
