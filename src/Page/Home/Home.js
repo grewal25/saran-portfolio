@@ -4,22 +4,46 @@ import "./Home.css";
 
 function Home() {
   return (
+    <div className="pt-16">
+      <div className=" md:max-w-3xl  m-auto text-center  ">
+        <div className="flex justify-center gap-10">
+          <div className="basis-1/2">Hi, I am Saranjeet!!</div>
+          <div className="basis-1/4">It's really nice to meet you. I am Front-end developer currently
+          living on the internet. I use this website to share my thoughts, my projects and anything
+          that comes to my mind basically. </div>
+          {/* <div className="border-2">Welcome to the Saran blog</div> */}
+        </div>
 
-    <div className="">
-      {/* banner section */}
-      <div className="flex lex-col items-center justify-center h-64 md:h-64 lg:h-80 md:max-w-4xl m-auto text-center">
-        <div>
-          <h1 className="text-2xl">
-            “The secret of happiness, you see, is not found in seeking more, but
-            in developing the capacity to enjoy less.”
-          </h1>
-          <div className=""><p className="pl-4 pt-3"><span className="bg-yellow-300 p-2">Socrates</span></p></div>
-          
+        {/* mid section */}
+        <div className="flex justify-center gap-10 pt-16">
+          <div className="">If you are first time visitor</div>
+          <div className="">It's really nice to meet you. I am Front-end developer currently
+          living on the internet. I use this website to share my thoughts, my projects and anything
+          that comes to my mind basically. </div>
+          {/* <div className="border-2">Welcome to the Saran blog</div> */}
         </div>
       </div>
+      {/* banner section */}
+     
 
-      {/* 2 hover section */}
-      <div>
+      {/* <Footer /> */}
+    </div>
+  );
+}
+
+export default Home;
+
+{
+  /* 2 hover section */
+}
+// <h1 className="text-2xl">
+//       “The secret of happiness, you see, is not found in seeking more, but
+//       in developing the capacity to enjoy less.”
+//     </h1>
+//     <div className=""><p className="pl-4 pt-3"><span className="bg-yellow-300 p-2">Socrates</span></p></div>
+
+{
+  /* <div>
           <div className="hidden lg:block bg-blue-0 max-w-7xl m-auto pt-8">
             <div className="flex justify-evenly ">
               <div className="w-96 h-72 border-2  rounded-3xl bg-black hover:bg-yellow-300 text-white hover:text-black">
@@ -90,49 +114,5 @@ function Home() {
               </div>
             </div>
           </div>
-      </div>
-
-      {/* Recent Articles... */}
-      <div>
-      <div className="h-64 md:h-64 lg:h-80 md:max-w-4xl m-auto text-center pt-8 md:pt-12 lg:pt-16 ">
-        <div>
-          <h1 className="text-3xl">
-            Recent Articles
-          </h1>
-          <div className="pt-12 flex justify-center gap-x-3">
-            <div className="underline text-2xl"><a href="./caching">How to boost productivity</a>
-              </div>
-            <div className="md:pl-16 md:text-xl text-sm hidden md:block">Dec 26, 2021</div>
-          </div>
-          <div className="pt-4 flex justify-center gap-x-3">
-          <div className="underline text-2xl"><a href="./not-to-fear-old-age">Why you shouldn't fear the 30s </a>
-              </div>
-            <div className="md:pl-4 md:text-xl text-sm hidden md:block">Dec 26, 2021</div>
-          </div>
-
-          <div className="pt-4 flex justify-center gap-x-3">
-            <div className="underline text-2xl"><a href="./how-to-start-when-you-are-stuck">How to start when you are stuck</a>
-              </div>
-            <div className="md:pl-4 md:text-xl text-sm hidden md:block">Dec 29, 2021</div>
-          </div>
-          <div className="pt-4 flex justify-center gap-x-3">
-          <div className="underline text-2xl"><a href="./not-to-fear-old-age">Why you shouldn't fear the 30s </a>
-              </div>
-            <div className="md:pl-4 md:text-xl text-sm hidden md:block">Dec 31, 2021</div>
-          </div>
-          
-        </div>
-      </div>
-
-
-
-
-
-
-      </div>
-      <Footer />
-    </div>
-  );
+      </div> */
 }
-
-export default Home;

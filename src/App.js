@@ -21,6 +21,7 @@ import Footer from './component/Footer/Footer';
 import Development from './Page/development/Development';
 import MainPage from './Page/Home/MainPage';
 import Main from './component/Main/Main';
+import Tutorial from './Page/Tutorials/Tutorial';
 
 
 
@@ -31,11 +32,19 @@ function App() {
      
      
   <Switch>
-          <Route exact path="/" component={MainPage}>
+           <Route exact path="/" component={Home}>
+           
+           </Route>
+          <Route  path="/about" component={MainPage}>
            
           </Route>
+          
 
           <Route path="/development" component={Development}>
+           
+           </Route>
+
+           <Route path="/tutorials" component={Tutorial}>
            
            </Route>
 

@@ -6,6 +6,9 @@ module.exports = {
       width:{
         '128':'32rem',
       },
+      flexGrow: {
+        '2': 2
+      },
       backgroundImage: {
         'pack-train': "url('img/banner-3.jpeg')",
       }

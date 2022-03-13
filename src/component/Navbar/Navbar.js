@@ -8,8 +8,9 @@ export default function Navbar(){
           <ul>
            
               <li>  <a href="./" >home</a></li>
-              <li> <a href="./archive" >archive</a></li>
-              <li> <a href="./javascript" >JS</a></li>
+              <li> <a href="./archive" >essays</a></li>
+              <li> <a href="./tutorials" >tutorials</a></li>
+              <li> <a href="./about" >about</a></li>
               
           </ul>
        </div>
