@@ -5,9 +5,9 @@ import "./Home.css";
 function Home() {
   return (
     <div className="pt-16">
-      <div className=" md:max-w-3xl  m-auto text-center pt-64 ">
-        <div className="flex">
-          <div className="flex-2 font-black text-3xl">Hi, I am Saranjeet!!</div>
+      <div className=" md:max-w-3xl  m-auto text-center pt-32 md:pt-64 ">
+        <div className="md:flex ">
+          <div className="md:flex-2 font-black text-3xl mb-4 md:md-0">Hi, I am Saranjeet!!</div>
           <div className="">It's really nice to meet you. I am Front-end developer currently
           living on the internet. I use this website to share my thoughts, my projects and anything
           that comes to my mind basically. </div>
@@ -27,9 +27,9 @@ function Home() {
         </div>
       </div>
       {/* banner section */}
-     
+{/*      
 
-      {/* <Footer /> */}
+      <Footer /> */}
     </div>
   );
 }
