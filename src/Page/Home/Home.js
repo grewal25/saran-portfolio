@@ -5,21 +5,24 @@ import "./Home.css";
 function Home() {
   return (
     <div className="pt-16">
-      <div className=" md:max-w-3xl  m-auto text-center  ">
-        <div className="flex justify-center gap-10">
-          <div className="basis-1/2">Hi, I am Saranjeet!!</div>
-          <div className="basis-1/4">It's really nice to meet you. I am Front-end developer currently
+      <div className=" md:max-w-3xl  m-auto text-center pt-64 ">
+        <div className="flex">
+          <div className="flex-2 font-black text-3xl">Hi, I am Saranjeet!!</div>
+          <div className="">It's really nice to meet you. I am Front-end developer currently
           living on the internet. I use this website to share my thoughts, my projects and anything
           that comes to my mind basically. </div>
           {/* <div className="border-2">Welcome to the Saran blog</div> */}
         </div>
 
         {/* mid section */}
-        <div className="flex justify-center gap-10 pt-16">
+        <div className="pt-16">
           <div className="">If you are first time visitor</div>
-          <div className="">It's really nice to meet you. I am Front-end developer currently
-          living on the internet. I use this website to share my thoughts, my projects and anything
-          that comes to my mind basically. </div>
+          <div className="">
+            <ul>
+              <li className="underline pt-3"><a href="./caching">check the tech blogs</a></li>
+              <li className="underline pt-4"><a href="./caching">check the non-tech blogs</a></li>
+            </ul>
+          </div>
           {/* <div className="border-2">Welcome to the Saran blog</div> */}
         </div>
       </div>

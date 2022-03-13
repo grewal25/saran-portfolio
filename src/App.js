@@ -22,6 +22,7 @@ import Development from './Page/development/Development';
 import MainPage from './Page/Home/MainPage';
 import Main from './component/Main/Main';
 import Tutorial from './Page/Tutorials/Tutorial';
+import SubscribeForm from './mailChimp/SubscribeForm';
 
 
 
@@ -36,6 +37,10 @@ function App() {
            
            </Route>
           <Route  path="/about" component={MainPage}>
+           
+          </Route>
+
+          <Route  path="/mail" component={SubscribeForm}>
            
           </Route>
           
