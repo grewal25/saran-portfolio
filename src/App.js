@@ -11,7 +11,6 @@ import Navbar from './component/Navbar/Navbar';
 import JavaSciptBlog from './Page/JavaScript/JavaScriptBlog';
 import Personal from './Page/Personal/Personal';
 import About from './Page/About/About';
-import JS_ch_01 from './Page/JS-ch-01/JS_ch_01';
 import Productivity from './Page/Productivity/Productivity';
 import Caching from './Page/caching/Caching';
 import VictorFrankl from './Page/VictorFrankl/VictorFrankl';
@@ -20,9 +19,10 @@ import Stuck from './Page/Stuck/Stuck';
 import Footer from './component/Footer/Footer';
 import Development from './Page/development/Development';
 import MainPage from './Page/Home/MainPage';
-import Main from './component/Main/Main';
 import Tutorial from './Page/Tutorials/Tutorial';
 import SubscribeForm from './mailChimp/SubscribeForm';
+import ToggleReact from './Page/Tutorials/ToggleReact';
+import FormsReact from './Page/Tutorials/FormsReact';
 
 
 
@@ -40,6 +40,14 @@ function App() {
            
           </Route>
 
+          <Route  path="/toggle" component={ToggleReact}>
+           
+          </Route>
+
+          <Route  path="/forms-react" component={FormsReact}>
+           
+          </Route>
+          
           <Route  path="/mail" component={SubscribeForm}>
            
           </Route>
@@ -64,10 +72,6 @@ function App() {
           <Route  path="/javascript" component={JavaSciptBlog}>
             </Route>
 
-          {/* <Route  path="/javascript/types-variables-in-javascript" component={JS_ch_01}>
-           
-          </Route> */}
-
           <Route  path="/personal" component={Personal}>
            
           </Route>
@@ -86,7 +90,7 @@ function App() {
           <Route  path="/not-to-fear-old-age" component={VictorFrankl}>
            
           </Route>
-          <Route  path="/archive" component={Archive}>
+          <Route  path="/essays" component={Archive}>
            
           </Route>
           <Route  path="/how-to-start-when-you-are-stuck" component={Stuck}>

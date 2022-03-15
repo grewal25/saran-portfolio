@@ -13,16 +13,6 @@ module.exports = {
         'pack-train': "url('img/banner-3.jpeg')",
       }
     },
-    // backgroundColor : theme => (
-    //   {
-    //     ...theme('colors'),
-    //   //   'primary': 'FF0000',
-    //   //  'secondary': '#ffed4a',
-    //   //  'danger': '#e3342f',
-    //   //  'main':'#CCDFEE',
-
-    //   }
-    // ),
     flex: {
       '2': '0 0 200px',
       '3': '0 0 500px',
@@ -39,6 +29,10 @@ module.exports = {
      '5xl': '0 55px 80px -20px rgba(0, 0, 0, 0.5)',
       inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
       none: 'none',
+    },
+    height: {
+      sm:'8px',
+      xl:'450px'
     }
     
   },

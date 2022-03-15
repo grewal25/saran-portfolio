@@ -1,48 +1,75 @@
+import Footer from "../../component/Footer/Footer";
 
-export default function Tutorial(){
-    return(
-        <>
-            <div>
-                Tutorial
-                {/* Recent Articles... */}
+const Archive = () => {
+  return (
+    <>
       <div>
-      <div className="h-64 md:h-64 lg:h-80 md:max-w-4xl m-auto text-center pt-8 md:pt-12 lg:pt-16 ">
         <div>
-          <h1 className="text-3xl">
-            Recent Articles
-          </h1>
-          <div className="pt-12 flex justify-center gap-x-3">
-            <div className="underline text-2xl"><a href="./caching">How to boost productivity</a>
-              </div>
-            <div className="md:pl-16 md:text-xl text-sm hidden md:block">Dec 26, 2021</div>
-          </div>
-          <div className="pt-4 flex justify-center gap-x-3">
-          <div className="underline text-2xl"><a href="./not-to-fear-old-age">Why you shouldn't fear the 30s </a>
-              </div>
-            <div className="md:pl-4 md:text-xl text-sm hidden md:block">Dec 26, 2021</div>
-          </div>
+          <div className="lg:px-4 xl:px-0">
+            <div className="flex justify-center gap-y-12 lg:gap-x-12 pt-12 md:pt-24 flex-col lg:flex-row items-center px-6 md:px-0">
+              <article className="">
+                <div className="max-w-lg md:max-w-md rounded-2xl overflow-hidden shadow-lg hover:shadow-3xl h-xl">
+                  <img
+                    src="react-toggle.png"
+                    className="w-full h-2/3 hover:shadow-3xl"
+                  />
+                  <div className="px-6 py-4">
+                    <div className="font-bold text-2xl mb-2">
+                      <a href="./caching">How to create a Toggle Button in React using conditional rendering?</a>
+                    </div>
+                    <ul>
+                      <li className="font-light">
+                        Create a toggle button to show and hide data using the useState hook.
+                      </li>
+                    </ul>
 
-          <div className="pt-4 flex justify-center gap-x-3">
-            <div className="underline text-2xl"><a href="./how-to-start-when-you-are-stuck">How to start when you are stuck</a>
-              </div>
-            <div className="md:pl-4 md:text-xl text-sm hidden md:block">Dec 29, 2021</div>
-          </div>
-          <div className="pt-4 flex justify-center gap-x-3">
-          <div className="underline text-2xl"><a href="./not-to-fear-old-age">Why you shouldn't fear the 30s </a>
-              </div>
-            <div className="md:pl-4 md:text-xl text-sm hidden md:block">Dec 31, 2021</div>
-          </div>
-          
-        </div>
-      </div>
+                    <div>
+                      <span className="inline-block bg-gray-200 rounded-full px-3 text-sm mr-2 mt-2">
+                        #React
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </article>
 
+              <article className="">
+                <div className="max-w-lg md:max-w-md rounded-2xl overflow-hidden shadow-lg hover:shadow-3xl h-xl">
+                  <img
+                    src="forms.png"
+                    className="w-full h-2/3 hover:shadow-3xl"
+                  />
+                  <div className="px-6 py-4">
+                    <div className="font-bold text-2xl mb-2">
+                      <a href="./toggle">Forms in React with Hooks</a>
+                    </div>
+                    <ul>
+                      <li className="font-light">
+                      How to use spread operator and hooks to work with forms in React
+                      </li>
+                    </ul>
 
+                    <div>
+                      <span className="inline-block bg-gray-200 rounded-full px-3 text-sm mr-2 mt-2">
+                        #React
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </article>
 
-
-
-
-      </div>
+             
             </div>
-        </>
-    )
-}
+
+            
+
+           
+          </div>
+        </div>
+
+        <Footer />
+      </div>
+    </>
+  );
+};
+
+export default Archive;

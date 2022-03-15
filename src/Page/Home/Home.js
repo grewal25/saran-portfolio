@@ -19,8 +19,8 @@ function Home() {
           <div className="">If you are first time visitor</div>
           <div className="">
             <ul>
-              <li className="underline pt-3"><a href="./caching">check the tech blogs</a></li>
-              <li className="underline pt-4"><a href="./caching">check the non-tech blogs</a></li>
+              <li className="underline pt-3"><a href="./tutorials">check the tech blogs</a></li>
+              <li className="underline pt-4"><a href="./essays">check the non-tech blogs</a></li>
             </ul>
           </div>
           {/* <div className="border-2">Welcome to the Saran blog</div> */}

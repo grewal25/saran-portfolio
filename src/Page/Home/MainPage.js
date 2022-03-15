@@ -1,8 +1,9 @@
 import { FiLinkedin, FiGithub } from "react-icons/fi";
 import "./Home.css";
 export default function MainPage() {
-  const src = "/images/fear.jpeg";
+  const publicis = "/publicis.png";
   const bmo = "/images/bmo-1.png";
+  const life = "/lifeworks.png";
   return (
     <>
       <div>
@@ -68,17 +69,16 @@ export default function MainPage() {
                 <div className="font-light pt-4">
                   <div className="flex justify-start">
                     <div className="pt-1">
-                      <img src={bmo} width="100%" />
+                      <img src={publicis} width="100%" />
                     </div>
                     <div className="">
                       <div className=" ml-6 pb-4">
                         <div className="font-semibold">Front-end Developer</div>
                         <div className="text-gray-500  text-sm ">
-                          BMO · May 2021 - Now
+                          Publicis Sapient
                         </div>
                         <div className="pt-2">
-                          Working on the marketing team and building campaign
-                          pages
+                          
                         </div>
                       </div>
                     </div>
@@ -97,10 +97,10 @@ export default function MainPage() {
                       <div className=" ml-6 pb-4">
                         <div className="font-semibold">Front-end Developer</div>
                         <div className="text-gray-500  text-sm ">
-                          BMO · May 2021 - Now
+                          Bank of Montreal
                         </div>
                         <div className="pt-2">
-                          Working on the marketing team and building campaign
+                          Worked on the marketing team and building campaign
                           pages
                         </div>
                       </div>
@@ -114,17 +114,16 @@ export default function MainPage() {
                 <div className="font-light pt-4">
                   <div className="flex justify-start">
                     <div className="pt-1">
-                      <img src={bmo} width="100%" />
+                      <img src={life} width="100%" />
                     </div>
                     <div className="">
                       <div className=" ml-6 pb-4">
-                        <div className="font-semibold">Front-end Developer</div>
+                        <div className="font-semibold">Software Analyst</div>
                         <div className="text-gray-500  text-sm ">
-                          BMO · May 2021 - Now
+                          LifeWorks
                         </div>
                         <div className="pt-2">
-                          Working on the marketing team and building campaign
-                          pages
+                          Worked on Health Care of Ontario Pension Plan Project
                         </div>
                       </div>
                     </div>
