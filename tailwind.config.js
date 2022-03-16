@@ -11,7 +11,10 @@ module.exports = {
       },
       backgroundImage: {
         'pack-train': "url('img/banner-3.jpeg')",
-      }
+      },
+      height: theme => ({
+        "xl4": "550px"
+      }),
     },
     flex: {
       '2': '0 0 200px',
@@ -29,13 +32,7 @@ module.exports = {
      '5xl': '0 55px 80px -20px rgba(0, 0, 0, 0.5)',
       inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
       none: 'none',
-    },
-    height: {
-      sm:'8px',
-      xl:'450px',
-      80:'20rem'
-    }
-    
+    },   
   },
   variants: {
     extend: {},

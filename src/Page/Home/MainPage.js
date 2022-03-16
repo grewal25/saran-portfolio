@@ -15,7 +15,7 @@ export default function MainPage() {
               <div className="flex flex-col">
                 <div>
                   <img
-                    class="w-24 h-24 rounded-full "
+                    class="rounded-full h-24 w-24 flex items-center justify-center "
                     src="/images/fear.jpeg"
                     alt=""
                     width="384"
@@ -45,10 +45,8 @@ export default function MainPage() {
               <div>
                 <div className="font-extrabold pt-4">Hey there,</div>
                 <div className="font-light pt-4">
-                  Welcome to my blog. I use this place to write about my
-                  experience and sometimes I use it as a knowledge sharing
-                  platform. You will find both technical and non-technical
-                  discussion on this blog.
+                  Front-end developer with 3+ years of experience developing resposive dynamic websites.<br></br>
+                  Proficient in React, ES6 and Tailwind CSS.
                 </div>
                 <div className="pt-4 flex">
                   <span className="pr-8">
@@ -73,7 +71,7 @@ export default function MainPage() {
                     </div>
                     <div className="">
                       <div className=" ml-6 pb-4">
-                        <div className="font-semibold">Front-end Developer</div>
+                        <div className="font-semibold">Sr. Front-end Developer</div>
                         <div className="text-gray-500  text-sm ">
                           Publicis Sapient
                         </div>

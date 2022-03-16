@@ -40,7 +40,7 @@ function App() {
            
           </Route>
 
-          <Route  path="/toggle" component={ToggleReact}>
+          <Route  path="/how-to-create-a-toggle-button-in-react" component={ToggleReact}>
            
           </Route>
 
