@@ -92,7 +92,7 @@ const Archive = () => {
               </article>
             </div>
 
-            <div className="flex justify-center gap-y-12 lg:gap-x-12 pt-24 flex-col lg:flex-row items-center">
+            <div className="hidden flex justify-center gap-y-12 lg:gap-x-12 pt-24 flex-col lg:flex-row items-center">
               <article className="">
                 <div className="max-w-xs md:max-w-md lg:max-w-xs rounded-2xl overflow-hidden shadow-lg hover:shadow-3xl">
                   <img
